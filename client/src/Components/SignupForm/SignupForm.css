@@ -25,6 +25,13 @@
     border: 1px solid #0da189;
     box-shadow:  0 0 5px #0da189;
 }
+.err{
+    color: #cc3333;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
 .submit-btn{
     background-color: #0da189;
     margin: 10px auto;

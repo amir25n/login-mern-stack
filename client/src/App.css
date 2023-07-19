@@ -15,9 +15,13 @@
 body{
   font-family: RaleWay-Light;
   font-size: 16px;
+  background-color: #dcdcdc;
 }
 li{
   list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: RaleWay-ExtraBold;
 }
 a{
   text-decoration: none;

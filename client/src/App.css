@@ -1,11 +1,27 @@
+/* add fonts */
+@font-face {
+  font-family: RaleWay-Light;
+  src: url("../public/fonts/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: RaleWay-ExtraBold;
+  src: url("../public/fonts/Raleway-ExtraBold.ttf");
+}
 /* custom styles */
 *{
   margin: 0;
   padding: 0;
+}
+body{
+  font-family: RaleWay-Light;
+  font-size: 16px;
 }
 li{
   list-style: none;
 }
 a{
   text-decoration: none;
+}
+input , button {
+  all: unset;
 }

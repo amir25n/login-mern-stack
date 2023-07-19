@@ -1,0 +1,44 @@
+.sinup-form-contianer{
+    background-color: #ffffff;
+    padding: 15px;
+    width: 50%;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 6px 15px 5px rgba(201, 201, 201, 0.8);
+}
+.sinup-form-contianer h2{
+    text-align: center;
+    color: #2f7c6f;
+}
+.signup-input{
+    width: 80%;
+    border: 1px solid #8888;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 25px auto;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+}
+.signup-input:focus{
+    border: 1px solid #0da189;
+    box-shadow:  0 0 5px #0da189;
+}
+.err{
+    color: #cc3333;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.submit-btn{
+    background-color: #0da189;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    width: 15%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

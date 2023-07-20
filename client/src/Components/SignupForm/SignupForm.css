@@ -42,3 +42,17 @@
     border-radius: 10px;
     cursor: pointer;
 }
+/* css media queries */
+@media only screen and (max-width:1000px){
+    .sinup-form-contianer{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:650px){
+    .sinup-form-contianer{
+        width: 90%;
+    }
+    .signup-input{
+        width: 95%;
+    }
+}

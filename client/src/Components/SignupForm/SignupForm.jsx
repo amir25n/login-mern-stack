@@ -22,7 +22,7 @@ function SignupForm() {
 
 
   return (
-    <div className="sinup-form-contianer">
+    <div className="signup-form-contianer">
         <h2>Signup Form</h2>
         <form onSubmit={submitHandeling}>
             <input type="text" placeholder='User Name (more than 6chars)'  className='signup-input' value={userName} onChange={(e) => setUserName(e.target.value)}/>

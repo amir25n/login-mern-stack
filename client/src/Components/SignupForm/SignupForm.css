@@ -1,4 +1,4 @@
-.sinup-form-contianer{
+.signup-form-contianer{
     background-color: #ffffff;
     padding: 15px;
     width: 50%;
@@ -7,7 +7,7 @@
     text-align: center;
     box-shadow: 6px 15px 5px rgba(201, 201, 201, 0.8);
 }
-.sinup-form-contianer h2{
+.signup-form-contianer h2{
     text-align: center;
     color: #2f7c6f;
 }
@@ -41,4 +41,18 @@
     color: white;
     border-radius: 10px;
     cursor: pointer;
+}
+/* css media queries */
+@media only screen and (max-width:1000px){
+    .signup-form-contianer{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:650px){
+    .signup-form-contianer{
+        width: 90%;
+    }
+    .signup-input{
+        width: 95%;
+    }
 }

@@ -3,10 +3,9 @@
     "version": "1.0.0",
     "description": "login form with node & react",
     "main": "app.js",
-    "module": "type",
+    "type": "module",
     "scripts": {
-        "build": "tsc",
-        "dev": "cross-env NODE_ENV=development build && nodemon -e ts,jspn,js, app.js",
+        "dev": "cross-env NODE_ENV=development nodemon -e ts,jspn,js, app.js",
         "start": "cross-env NODE_ENV=production node app.js"
     },
     "repository": {
@@ -21,6 +20,8 @@
     "homepage": "https://github.com/amir25n/login-mern-stack#readme",
     "devDependencies": {
         "@types/node": "^20.4.2",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.3.1",
         "nodemon": "^3.0.1"
     },
     "dependencies": {

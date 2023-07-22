@@ -32,6 +32,20 @@
     text-align: center;
     padding: 10px;
 }
+.status{
+    color: #3382cc;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.success{
+    color: #195809;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
 .submit-btn{
     background-color: #0da189;
     margin: 10px auto;

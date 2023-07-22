@@ -52,7 +52,7 @@ function SignupForm() {
                 <p className="success">Signup SuccessFull ! redirecting...</p>
             )}
             {(submitted && status === "email-error") && (
-                <p className="err">Email is not valid</p>
+                <p className="err">Email is already used</p>
             )}
         </form>
     </div>

@@ -11,13 +11,14 @@ router.get("/", (req, res) => {
 router.post("/signup", async (req, res) => {
     console.log(req.body);
     if (!req.body) {
-        return res.status(400).json({ message: "input is not valid" });
+        return res.json({ message: "input is not valid" });
     }
     const isMatch = await User.findOne({ userEmail: req.body.userEmail });
     if (isMatch) {
-        return res.status(400).json({ message: "email is already used" });
+        return res.json({ message: "email is already used !" });
     }
     const user = await User.create(req.body);
+    res.status(200);
     console.log("user created !");
     res.end();
 });

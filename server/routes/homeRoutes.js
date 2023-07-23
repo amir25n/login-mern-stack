@@ -1,5 +1,6 @@
 import { Router } from "express";
 import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
 
 import { User } from "../model/User.js";
 
@@ -27,6 +28,16 @@ router.post("/signup", async (req, res) => {
         });
         res.status(200).json({ message: "user-ok" });
         res.end();
+    } catch (error) {
+        console.log(error);
+    }
+});
+router.post("/login", async (req, res) => {
+    try {
+        const { userEmail, userPassword } = req.body;
+        const userMatch = await User.findOne({ userEmail });
+        if (userMatch && bcrypt.compare(userMatch.userPassword, userPassword)) {
+        }
     } catch (error) {
         console.log(error);
     }

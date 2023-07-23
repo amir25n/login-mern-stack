@@ -35,6 +35,27 @@
     border-radius: 10px;
     cursor: pointer;
 }
+.err{
+    color: #cc3333;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.status{
+    color: #3382cc;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.success{
+    color: #195809;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
 /* css media queries */
 @media only screen and (max-width:1000px){
     .login-form-container{

@@ -37,12 +37,12 @@
 }
 /* css media queries */
 @media only screen and (max-width:1000px){
-    .login-form-contianer{
+    .login-form-container{
         width: 75%;
     }
 }
 @media only screen and (max-width:650px){
-    .login-form-contianer{
+    .login-form-container{
         width: 90%;
     }
     .login-input{

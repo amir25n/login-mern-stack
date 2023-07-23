@@ -58,15 +58,15 @@
 }
 /* css media queries */
 @media only screen and (max-width:1000px){
-    .login-form-contianer{
+    .signup-form-contianer{
         width: 75%;
     }
 }
 @media only screen and (max-width:650px){
-    .login-form-contianer{
+    .signup-form-contianer{
         width: 90%;
     }
-    .login-input{
+    .signup-input{
         width: 95%;
     }
 }

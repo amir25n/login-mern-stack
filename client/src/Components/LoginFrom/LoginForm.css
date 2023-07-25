@@ -1,0 +1,72 @@
+.login-form-container{
+    background-color: #ffffff;
+    padding: 15px;
+    width: 50%;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 6px 15px 5px rgba(201, 201, 201, 0.8);
+}
+.login-form-container h2{
+    text-align: center;
+    color: #2f7c6f;
+}
+.login-input{
+    width: 80%;
+    border: 1px solid #8888;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 25px auto;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+}
+.login-input:focus{
+    border: 1px solid #0da189;
+    box-shadow:  0 0 5px #0da189;
+}
+.submit-btn{
+    background-color: #0da189;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    width: 15%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.err{
+    color: #cc3333;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.status{
+    color: #3382cc;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.success{
+    color: #195809;
+    font-family: RaleWay-ExtraBold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+/* css media queries */
+@media only screen and (max-width:1000px){
+    .login-form-container{
+        width: 75%;
+    }
+}
+@media only screen and (max-width:650px){
+    .login-form-container{
+        width: 90%;
+    }
+    .login-input{
+        width: 95%;
+    }
+}

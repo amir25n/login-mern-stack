@@ -22,6 +22,9 @@ function SignupForm() {
             })
             .then(res => setStatus(res.data.message))
         }
+        else{
+            setStatus("")
+        }
     }
 
 

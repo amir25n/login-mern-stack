@@ -37,6 +37,14 @@ router.post("/login", async (req, res) => {
         const { userEmail, userPassword } = req.body;
         const userMatch = await User.findOne({ userEmail });
         if (userMatch && bcrypt.compare(userMatch.userPassword, userPassword)) {
+            const token = jwt.sign(
+                {
+                    userMatch,
+                },
+                process.env.JWT_SECRETKEY,
+                { expiresIn: "1d" }
+            );
+            res.json({ token });
         }
     } catch (error) {
         console.log(error);

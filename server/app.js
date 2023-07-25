@@ -4,6 +4,7 @@ import cors from "cors";
 
 import { connectDB } from "./utils/db.js";
 import homeRoutes from "./routes/homeRoutes.js";
+import adminRoutes from "./routes/adminRoutes.js";
 
 //? config
 if (process.env.NODE_ENV == "development") {
@@ -27,5 +28,6 @@ app.use(cors());
 
 //?routes
 app.use(homeRoutes);
+app.use(adminRoutes);
 
 app.listen(process.env.PORT, () => console.log(`app running on port ${process.env.PORT} in mode ${process.env.NODE_ENV}`));
